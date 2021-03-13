@@ -21,6 +21,7 @@ BOARD_VENDOR := xiaomi
 
 # Platform
 TARGET_BOARD_PLATFORM := sdm660
+OVERRIDE_QCOM_HARDWARE_VARIANT := sdm660
 
 # Android Verified Boot
 BOARD_AVB_ENABLE := true
