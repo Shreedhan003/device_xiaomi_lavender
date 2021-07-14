@@ -1,1 +1,3 @@
 allow system_server sysfs_livedisplay_tuneable:file { read write };
+get_prop(system_server, userspace_reboot_exported_prop);
+get_prop(system_server, userspace_reboot_config_prop);
