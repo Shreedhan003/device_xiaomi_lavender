@@ -213,5 +213,10 @@ ro.surface_flinger.has_wide_color_display=true
 # Time
 persist.vendor.delta_time.enable=true
 
+# USB
+vendor.usb.rmnet.func.name=rmnet_bam
+vendor.usb.rmnet.inst.name=rmnet
+vendor.usb.rndis.func.name=rndis_bam
+
 # Zygote
 persist.device_config.runtime_native.usap_pool_enabled=true
