@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/voltage_lavender.mk
+    $(LOCAL_DIR)/aosp_lavender.mk
 
 COMMON_LUNCH_CHOICES := \
-    voltage_lavender-user \
-    voltage_lavender-userdebug \
-    voltage_lavender-eng
+    aosp_lavender-user \
+    aosp_lavender-userdebug \
+    aosp_lavender-eng
