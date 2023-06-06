@@ -19,7 +19,8 @@ PRODUCT_ENFORCE_RRO_TARGETS := *
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH) \
     hardware/google/interfaces \
-    hardware/google/pixel
+    hardware/google/pixel \
+    hardware/xiaomi
 
 # Permissions
 PRODUCT_COPY_FILES += \
@@ -134,7 +135,9 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_PACKAGES += \
     libdng_sdk.vendor \
-    libstdc++.vendor
+    libstdc++.vendor \
+    libMegviiFacepp-0.5.2 \
+    libmegface
     
 # Component overrides
 PRODUCT_COPY_FILES += \
