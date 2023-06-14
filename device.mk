@@ -125,16 +125,18 @@ PRODUCT_PACKAGES += \
 
 # Camera
 PRODUCT_PACKAGES += \
-    android.frameworks.sensorservice@1.0 \
-    android.frameworks.sensorservice@1.0.vendor \
+    android.hardware.camera.common@1.0 \
     android.hardware.camera.device@3.5:64 \
-    android.hardware.camera.provider@2.6:64 \
     android.hardware.camera.provider@2.4-impl:32 \
     android.hardware.camera.provider@2.4-service \
-    libdng_sdk.vendor \
-    libstdc++.vendor \
+    android.hardware.camera.provider@2.5:64 \
+    android.hardware.camera.provider@2.6:64 \
     vendor.qti.hardware.camera.device@1.0:64
 
+PRODUCT_PACKAGES += \
+    libdng_sdk.vendor \
+    libstdc++.vendor
+    
 # ConsumerIR
 PRODUCT_PACKAGES += \
     android.hardware.ir@1.0-service.xiaomi_sdm660
@@ -400,7 +402,8 @@ PRODUCT_COPY_FILES += \
 # Sensors
 PRODUCT_PACKAGES += \
     android.hardware.sensors@1.0-impl:64 \
-    android.hardware.sensors@1.0-service
+    android.hardware.sensors@1.0-service \
+    android.frameworks.sensorservice@1.0.vendor
 
 # Shims
 PRODUCT_PACKAGES += \
